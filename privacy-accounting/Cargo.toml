@@ -1,0 +1,17 @@
+    [package]
+    name = "privacy-accounting"
+    version.workspace = true
+    edition.workspace = true
+    authors.workspace = true
+    license.workspace = true
+    description = "Privacy Accounting crate (skeleton; no implementation)."
+    
+    [lib]
+    name = "privacy_accounting"
+    path = "src/lib.rs"
+    
+[dependencies]
+# optional future deps (auskommentiert)
+# thiserror = "1"
+# num-traits = "0.2"
+

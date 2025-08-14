@@ -1,0 +1,13 @@
+    [package]
+    name = "examples"
+    version.workspace = true
+    edition.workspace = true
+    authors.workspace = true
+    license.workspace = true
+    description = "Examples crate (skeleton; no implementation)."
+    
+    [lib]
+    name = "examples"
+    path = "src/lib.rs"
+    
+[dependencies]

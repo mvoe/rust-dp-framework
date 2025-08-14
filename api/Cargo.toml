@@ -1,0 +1,22 @@
+    [package]
+    name = "api"
+    version.workspace = true
+    edition.workspace = true
+    authors.workspace = true
+    license.workspace = true
+    description = "Api crate (skeleton; no implementation)."
+    
+    [lib]
+    name = "api"
+    path = "src/lib.rs"
+    
+[dependencies]
+# optionale Features (auskommentiert)
+# axum = { version = "0.7", optional = true }
+# tokio = { version = "1", features = ["rt-multi-thread", "macros"], optional = true }
+# clap = { version = "4", features = ["derive"], optional = true }
+#
+# [features]
+# cli = ["clap"]
+# web = ["axum", "tokio"]
+

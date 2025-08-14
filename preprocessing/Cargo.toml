@@ -1,0 +1,17 @@
+    [package]
+    name = "preprocessing"
+    version.workspace = true
+    edition.workspace = true
+    authors.workspace = true
+    license.workspace = true
+    description = "Preprocessing crate (skeleton; no implementation)."
+    
+    [lib]
+    name = "preprocessing"
+    path = "src/lib.rs"
+    
+[dependencies]
+# optional future deps (auskommentiert)
+# serde = { version = "1", features = ["derive"] }
+# thiserror = "1"
+
