@@ -41,7 +41,7 @@ impl ScalarStream for CsvScalarStream {
         let mut buf = String::new();
         loop {
             buf.clear();
-            let n = match self.reader.read_line(&mut buf) {
+            match self.reader.read_line(&mut buf) {
                 Ok(0) => return None,
                 Ok(_) => {},
                 Err(e) => return Some(Err(Box::new(e))),
