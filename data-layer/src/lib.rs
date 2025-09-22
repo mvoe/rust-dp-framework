@@ -1,7 +1,9 @@
-//! Datenrepräsentation & Input (skeleton).
-//!
-//! Ziel: Einheitliche Schnittstellen für Tabellen, Streams und Serde-Modelle.
-//!
-//! Hinweis: Noch **keine** Implementierungen – nur Modul-Platzhalter.
+mod stream;
+mod csv_stream;
+mod stream_queries;
 
-pub mod table;
+#[cfg(test)]
+mod tests {
+    mod test_stream_queries;
+    mod test_csv_stream;
+}

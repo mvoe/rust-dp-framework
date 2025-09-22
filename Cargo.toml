@@ -13,6 +13,6 @@ resolver = "2"
 
 [workspace.package]
 edition = "2021"
-authors = ["Your Name <you@example.com>"]
-license = "MIT OR Apache-2.0"
+authors = [""]
+license = "MIT"
 version = "0.1.0"
