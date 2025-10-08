@@ -4,14 +4,13 @@
     edition.workspace = true
     authors.workspace = true
     license.workspace = true
-    description = "Preprocessing crate (skeleton; no implementation)."
+    description = "Preprocessing crate"
     
     [lib]
     name = "preprocessing"
     path = "src/lib.rs"
     
 [dependencies]
-# optional future deps (auskommentiert)
-# serde = { version = "1", features = ["derive"] }
-# thiserror = "1"
+data-layer = { path = "../data-layer" }  # <- adjust if needed
+thiserror = "1"
 

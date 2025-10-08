@@ -1,4 +1,4 @@
-mod stream;
+pub mod stream;
 mod csv_stream;
 mod stream_queries;
 mod json_stream;

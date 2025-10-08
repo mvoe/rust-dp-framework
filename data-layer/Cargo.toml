@@ -15,3 +15,5 @@ approx = "0.5.1"
 tempfile = "3.22.0"
 serde_json = "1.0.145"
 serde = { version = "1", features = ["derive"] }
+quick-xml = "0.38.3"
+thiserror = "2.0.17"
