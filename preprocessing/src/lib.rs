@@ -6,3 +6,7 @@ pub mod prelude {
     };
     pub use crate::error::PrepError;
 }
+
+mod tests {
+    mod test_adapters;
+}
